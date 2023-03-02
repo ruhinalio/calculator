@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(0, 0, 255, 0.622);
+}
+
+.calculator {
+  background-color: rgba(239, 169, 179, 0.57);
+  padding: 1.5rem 3rem;
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 1rem 0;
+  margin: 10% auto;
+}
+.calculator .birinciEded {
+  padding: 1rem 3rem;
+  font-size: x-large;
+}
+.calculator select {
+  padding: 1rem 3rem;
+  font-size: x-large;
+}
+.calculator .ikinciEded {
+  padding: 1rem 3rem;
+  font-size: x-large;
+}
+.calculator .cavab {
+  padding: 1rem 1.5rem;
+  font-size: x-large;
+  border: none;
+  border-radius: 30px;
+}
+.calculator .cavab:hover {
+  background-color: rgba(255, 0, 0, 0.534);
+  color: #fff;
+}
+
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50% -50%);
+  font-size: 70px;
+  color: rebeccapurple;
+}/*# sourceMappingURL=style.css.map */
